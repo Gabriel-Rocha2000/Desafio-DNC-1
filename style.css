@@ -1,0 +1,121 @@
+*{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+/* Menu Superior */
+#menusuperior {
+    background-color: #303030;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 150px 20px;
+}
+
+#titulomenusuperior {
+    font-size: 42px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+#textomenusuperior {
+    font-size: 28px;
+    padding: 10px;
+}
+
+/* Texto do Menu Inferior */
+#textomenuinferior {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 15px;
+    padding: 50px;
+    background-color: #F9F9F9;
+    width: 80%px;
+}
+
+#textomenuinferior p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#textomenuinferior .numero {
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+    max-width: 60%;
+}
+
+/* Menu Central */
+#menucentral {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+#titulomenucentral {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#conteudo-texto {
+    max-width: 40%;
+    text-align: left;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#textomenucentral {
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+#casa {
+    max-width: 35%;
+    height: auto;
+     
+}
+
+/* Rodapé */
+#rodape {
+    background: #303030;
+    padding: 20px;
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+}
+
+#rodape h1 {
+    margin-bottom: 20px;
+}
+
+#rodape input[type="text"] {
+    width: 80%; 
+    max-width: 400px; 
+    padding: 10px;
+    margin: 10px 0; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    background: #C07212; 
+    color: #fff; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    text-align: center; 
+    display: inline-block; 
+    transition: background 0.3s; /
+    
+}
